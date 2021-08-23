@@ -12,27 +12,57 @@
 body{
     background-color: lightsteelblue;
 }
+
 button{
     background-color: whitesmoke;
     color: black;
-    border: 1px solid black;
-    margin: 50px 0px 0px 0px;
+    border: 1px solid black; 
 }
+
 header{
     width: 100%;
     height: 100px;
     background-color: gray;
 }
+
 h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-/* #circle{
-    background-color: lime;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border-color: 4px solid blanchedalmond ;
 
-} */
+#memeArea img{
+    width: 300px;
+    height: 250px;
+    
+}
+
+#memeArea{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0;
+    align-items: center;
+}
+
+form select, form input, form button{
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+form button{
+    height: 40px;
+}
+
+.mainBtn{
+    margin: 50px 0px 0px 0px;
+}
